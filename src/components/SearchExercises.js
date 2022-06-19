@@ -26,7 +26,7 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
             const searchedExercises = exercisesData.filter(
                 (exercise) => exercise.name.toLowerCase().includes(search)
                 || exercise.target.toLowerCase().includes(search)
-                // || exercise.equipment.toLowerCase().includes(search)
+                //|| exercise.equipment.toLowerCase().includes(search)
                 || exercise.bodyPart.toLowerCase().includes(search)
             );
             setSearch('');
@@ -44,7 +44,7 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
                 fontWeight={700} sx={{fontSize:{lg: '44px', xs:'30px'}}}
                 mb={'50px'} textAlign={'center'}
             >
-              Awesome exercises you <br/> should try!
+              Effective exercises you <br/> should try!
             </Typography>
             <Box position={'relative'} mb={'72px'}>
                 <TextField
@@ -88,7 +88,7 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
                 />
             </Box>
         </Stack>
-    )
-}
+    );
+};
 
 export default SearchExercises
