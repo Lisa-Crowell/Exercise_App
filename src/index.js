@@ -5,6 +5,7 @@ import {BrowserRouter} from "react-router-dom";
 import App from './App';
 
 
+// noinspection JSCheckFunctionSignatures
 const root = ReactDom.createRoot(document.getElementById('root'));
 
 root.render(
