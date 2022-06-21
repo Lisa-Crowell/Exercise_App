@@ -37,7 +37,7 @@ const ExerciseDetail = () => {
 
         // noinspection JSIgnoredPromiseFromCall
         fetchExercisesData();
-    }, []);
+    }, [id]);
 
     if (!exerciseDetail) return <div>No Data</div>;
 
