@@ -8,7 +8,8 @@ const Footer = () => {
             <Stack
                 gap="40px"
                 sx={{alignItems: 'center'}}
-                flexWrap="wrap" px="40px"
+                flexWrap="wrap"
+                px="40px"
                 pt="24px"
             >
                 <img src={Logo}
@@ -22,7 +23,7 @@ const Footer = () => {
                         textAlign="center"
                         pb="40px"
             >
-                Made with ❤️by Crowell.Dev</Typography>
+                Made with ❤️ by Crowell.Dev</Typography>
         </Box>
     );
 };

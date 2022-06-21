@@ -11,7 +11,7 @@ const BodyPart = ({item, bodyPart, setBodyPart}) => {
             justifyContent={'center'}
             className={'bodyPart-card'}
             sx={
-                bodyPart === item ?{
+                bodyPart === item ? {
                 borderTop: '4px solid #ff2625',
                 backgroundColor: '#fff',
                 borderBottomLeftRadius: '20px',
@@ -27,7 +27,7 @@ const BodyPart = ({item, bodyPart, setBodyPart}) => {
                     cursor: 'pointer',
                     gap: '40px'
                 }}
-            onClick={()=>{
+            onClick={() => {
                 setBodyPart(item);
                 window.scrollTo({top: 1800, left: 100, behavior: "smooth"});
             }}
@@ -40,13 +40,14 @@ const BodyPart = ({item, bodyPart, setBodyPart}) => {
             <Typography
                 fontSize={'24px'}
                 fontWeight={'bold'}
+                fontFamily={'Alegreya'}
                 color={'#3A1212'}
                 textTransform={'capitalize'}
             >
                 {item}
             </Typography>
         </Stack>
-    )
-}
+    );
+};
 
 export default BodyPart

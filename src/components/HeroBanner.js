@@ -51,7 +51,7 @@ const HeroBanner = () => {
                 alt={'banner'}
                 className={'hero-banner-img'} />
         </Box>
-    )
-}
+    );
+};
 
 export default HeroBanner

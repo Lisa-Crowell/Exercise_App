@@ -4,10 +4,15 @@ import {Button, Stack, Typography} from "@mui/material";
 
 
 const ExerciseCard = ({exercise}) => {
-    // noinspection JSUnresolvedVariable
     return(
-        <Link className={'exercise-card'} to={`/exercise/${exercise.id}`} >
-            <img src={exercise.gifUrl} alt={exercise.name} loading={'lazy'} />
+        <Link
+            className={'exercise-card'}
+            to={`/exercise/${exercise.id}`}
+        >
+            <img src={exercise.gifUrl}
+                 alt={exercise.name}
+                 loading={'lazy'}
+            />
             <Stack direction={'row'}>
                 <Button
                 sx={{
@@ -46,7 +51,7 @@ const ExerciseCard = ({exercise}) => {
                 {exercise.name}
             </Typography>
         </Link>
-    )
-}
+    );
+};
 
 export default ExerciseCard

@@ -18,7 +18,7 @@ const App = () => {
             </Routes>
             <Footer/>
         </Box>
-    )
-}
+    );
+};
 
 export default App
