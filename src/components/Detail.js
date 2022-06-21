@@ -49,9 +49,9 @@ const Detail = ({ exerciseDetail }) => {
                     <span style={{ textTransform: 'capitalize' }}
                     >
                         {name}
-                    </span> bup is one
-                    of the best <br /> exercises to target your {target}. It will help you improve your{' '}
-                    <br /> mood and gain energy.
+                    </span> is one
+                    of the best exercises to target your {target}.<br /> It will help you improve your{' '}
+                     mood and  gain energy.
                 </Typography>
                 {extraDetail?.map((item) => (
                     <Stack key={item.name}
