@@ -30,7 +30,7 @@ const Navbar = () => {
                 </a>
             </Stack>
         </Stack>
-    )
-}
+    );
+};
 
 export default Navbar
